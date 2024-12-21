@@ -1,0 +1,61 @@
+# Byte-compiled / optimized / bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.eggs/
+*.egg
+dist/
+build/
+develop-eggs/
+parts/
+sdist/
+*.egg-info/
+.installed.cfg
+*.whl
+*.tar.gz
+*.zip
+
+# Environments
+.venv
+venv
+env
+ENV
+.env
+
+# PyInstaller
+#  Usually these files are built by pyinstaller so they should be checked in if
+#  committed to version control, hence the comment. But if you are building
+#  often, then ignoring them will save you some time.
+# __pycache__/
+# *.pyc
+# *.pyo
+# *.spec
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+*.ipy[cod]
+
+# dotenv
+.env
+
+# Spyder project
+.spyproject
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy-*.json
+
+# VS Code
+.vscode/
+*.swp
+*~
+.DS_Store
+
+# OS generated files
+.DS_Store
+Thumbs.db
