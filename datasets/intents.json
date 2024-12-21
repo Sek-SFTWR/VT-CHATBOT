@@ -1,0 +1,351 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "good day",
+        "greetings",
+        "hello there"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! How can I help you?",
+        "Good day! How may I assist you?",
+        "Greetings! What can I do for you?"
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "how old are you?",
+        "what is your age?",
+        "can you tell me your age?",
+        "how old is the person on the other side?",
+        "what's your age?"
+      ],
+      "responses": [
+        "I don't have an age, but I can assist you with any questions you have!",
+        "I don't have an age, but I am always here to help. How can I assist you today?",
+        "I'm an AI, I don't age."
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name?",
+        "who are you?",
+        "tell me your name",
+        "what should I call you?",
+        "do you have a name?",
+        "what's your name?"
+      ],
+      "responses": [
+        "I am your assistant. You can call me whatever you like!",
+        "I'm an AI assistant. You can call me anything you prefer!",
+        "I don't have a specific name, but you can refer to me as your AI assistant."
+      ]
+    },
+    {
+      "tag": "gender",
+      "patterns": [
+        "what is your gender?",
+        "are you male or female?",
+        "what gender do you identify as?",
+        "can you tell me your gender?",
+        "what's your gender?"
+      ],
+      "responses": [
+        "I don't have a gender, but I'm here to help you!",
+        "As an AI, I don't have a gender. But I'm always ready to assist you!",
+        "Gender isn't applicable to me as I'm an AI."
+      ]
+    },
+    {
+      "tag": "education",
+      "patterns": [
+        "what is your education level?",
+        "do you have any degrees?",
+        "are you educated?",
+        "what education do you have?",
+        "what's your educational background?"
+      ],
+      "responses": [
+        "As an AI, I don't have an educational background, but I am designed to help you with knowledge and information.",
+        "I don't have formal education, but I have access to vast information to assist you!",
+        "My knowledge comes from the data I was trained on."
+      ]
+    },
+    {
+      "tag": "relationship_status",
+      "patterns": [
+        "what is your relationship status?",
+        "are you married?",
+        "are you in a relationship?",
+        "what's your relationship status?",
+        "do you have a partner?"
+      ],
+      "responses": [
+        "I don't have a relationship status, as I'm here to assist you with whatever you need!",
+        "As an AI assistant, I don't have a relationship status, but I am here for you!",
+        "I'm focused on assisting users, so relationships aren't part of my functionality."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you later",
+        "take care",
+        "have a great day",
+        "see ya",
+        "farewell",
+        "good night"
+      ],
+      "responses": [
+        "Goodbye! Have a wonderful day!",
+        "See you later! Don't hesitate to reach out.",
+        "Take care! Hope to chat with you again soon.",
+        "Farewell!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thank you",
+        "thanks",
+        "thanks a lot",
+        "thank you very much",
+        "I appreciate it",
+        "thank you for your help",
+        "thanks for helping"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime! I'm here to assist you.",
+        "You're very welcome!"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "help",
+        "can you assist me",
+        "I need help",
+        "I need assistance",
+        "can you guide me",
+        "I'm having trouble",
+        "I need some help",
+        "assist me"
+      ],
+      "responses": [
+        "Sure! What do you need help with?",
+        "Of course! How can I assist you?",
+        "I'm here to help. Please let me know what you need.",
+        "How can I be of service?"
+      ]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": [
+        "how are you?",
+        "how are you doing?",
+        "how's it going?",
+        "how do you feel?"
+      ],
+      "responses": [
+        "I'm doing well, thank you for asking!",
+        "I'm functioning optimally. How can I help you?",
+        "I'm great! What can I do for you today?"
+      ]
+    },
+    {
+      "tag": "what_can_you_do",
+      "patterns": [
+        "what can you do?",
+        "what are your capabilities?",
+        "what can you help me with?",
+        "what are you able to do?"
+      ],
+      "responses": [
+        "I can answer your questions, provide information, and assist with various tasks.",
+        "I can help with a wide range of things. Just let me know what you need.",
+        "I'm designed to be a helpful and informative assistant."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "where are you located?",
+        "where do you live?",
+        "what is your location?"
+      ],
+      "responses": [
+        "I exist in the digital realm, so I don't have a physical location.",
+        "I'm present everywhere and nowhere at the same time.",
+        "I operate in the cloud."
+      ]
+    },
+    {
+      "tag": "creator",
+      "patterns": [
+        "who created you?",
+        "who made you?",
+        "who is your creator?",
+        "who built you?"
+      ],
+      "responses": [
+        "I was created by Google.",
+        "I am a Google product.",
+        "Google developed me."
+      ]
+    },
+    {
+      "tag": "love_advice",
+      "patterns": [
+        "how to confess my love?",
+        "what should I do if I like someone?",
+        "how do I know if someone likes me?",
+        "advice on love"
+      ],
+      "responses": [
+        "Be honest and genuine when expressing your feelings.",
+        "Take your time and observe their behavior toward you.",
+        "Sometimes, the best way is to communicate openly and directly."
+      ]
+    },
+    {
+      "tag": "relationship_advice",
+      "patterns": [
+        "how to handle a breakup?",
+        "how to maintain a relationship?",
+        "relationship problems",
+        "how to communicate better?"
+      ],
+      "responses": [
+        "Take care of yourself and give it time to heal after a breakup.",
+        "Honest communication and mutual respect are key in any relationship.",
+        "Listening is as important as speaking in a healthy relationship."
+      ]
+    },
+    {
+      "tag": "friendship",
+      "patterns": [
+        "how to make friends?",
+        "what makes a good friend?",
+        "how to handle fights with friends?",
+        "friendship problems"
+      ],
+      "responses": [
+        "Be kind and approachable, and look for common interests to bond over.",
+        "A good friend is someone who listens, supports, and respects you.",
+        "Talk things out calmly and try to understand each other's perspective."
+      ]
+    },
+    {
+      "tag": "dreams",
+      "patterns": [
+        "how to achieve my dreams?",
+        "I have big dreams but feel lost",
+        "what should I do to follow my dream?",
+        "dream big but how to start?"
+      ],
+      "responses": [
+        "Break your dream into smaller, actionable steps and start from there.",
+        "Stay motivated and remember why you started chasing this dream.",
+        "Seek guidance or mentorship from someone experienced in your field."
+      ]
+    },
+    {
+      "tag": "goals",
+      "patterns": [
+        "how to set goals?",
+        "how to achieve my goals?",
+        "I feel stuck with my goals",
+        "goal-setting advice"
+      ],
+      "responses": [
+        "Set specific, measurable, achievable, relevant, and time-bound (SMART) goals.",
+        "Stay focused and review your progress regularly.",
+        "Don’t hesitate to adjust your goals if necessary—flexibility is key."
+      ]
+    },
+    {
+      "tag": "stress_management",
+      "patterns": [
+        "I'm stressed out",
+        "how to handle stress?",
+        "how to relax?",
+        "stress advice"
+      ],
+      "responses": [
+        "Take deep breaths, go for a walk, or listen to calming music.",
+        "Try journaling your thoughts to understand and process them.",
+        "Sometimes, talking to someone you trust can really help."
+      ]
+    },
+    {
+      "tag": "school_life",
+      "patterns": [
+        "how to handle school pressure?",
+        "advice for school life",
+        "how to study better?",
+        "how to stay motivated in school?"
+      ],
+      "responses": [
+        "Create a study schedule that works for you and stick to it.",
+        "Take breaks and reward yourself for completing tasks.",
+        "Don’t hesitate to ask for help from teachers or friends when needed."
+      ]
+    },
+    {
+      "tag": "self_confidence",
+      "patterns": [
+        "how to be more confident?",
+        "I feel insecure",
+        "how to build self-esteem?",
+        "how to believe in myself?"
+      ],
+      "responses": [
+        "Focus on your strengths and celebrate small wins.",
+        "Practice positive self-talk and surround yourself with supportive people.",
+        "Take on challenges, even small ones—they help build confidence."
+      ]
+    },
+    {
+      "tag": "hobbies",
+      "patterns": [
+        "how to find a hobby?",
+        "what hobbies should I try?",
+        "ideas for hobbies",
+        "how to spend free time?"
+      ],
+      "responses": [
+        "Explore activities like painting, writing, dancing, or coding.",
+        "Try new things to discover what you enjoy the most.",
+        "Hobbies are a great way to relax and learn something new."
+      ]
+    },
+    {
+      "tag": "future",
+      "patterns": [
+        "how to plan my future?",
+        "I’m worried about my future",
+        "what should I do about my career?",
+        "future planning advice"
+      ],
+      "responses": [
+        "Start by identifying your interests and strengths.",
+        "Explore different career options and seek advice from mentors.",
+        "Remember, it’s okay to take one step at a time—don’t stress too much!"
+      ]
+    }
+  ]
+}
